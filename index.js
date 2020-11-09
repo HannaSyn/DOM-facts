@@ -88,8 +88,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
   createNavItem();
 });
 
-
-
 asideBtn.addEventListener('click', function(e) {
   asideBtn.classList.toggle('clicked');
   navigation.classList.toggle('visible');
